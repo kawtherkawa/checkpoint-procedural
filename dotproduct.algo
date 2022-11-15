@@ -1,0 +1,34 @@
+PROCEDURE Dot_product(v1,v2 : ARRAY_OF Reel[length])
+Var 
+prod:integer:=1;
+n:=arr.lentgh,
+i: Integer
+BEGIN
+FOR i FROM 0 TO n DO
+prod= V1[i]*V2[i]
+END_FOR
+write(prod)
+END
+ALGORITHM dot_n_product (V: ARRAY_OF Reel[length])
+Var 
+n:=V.length
+i:Integer
+BEGIN
+For i FROM 0 To n DO
+if(V[i]$$V[i+1]==0)
+Dot_product(V1,v2)
+END_IF
+END_FOR
+END
+ALGORITHM dot_n_product (V: ARRAY_OF Reel[length])
+Var 
+n:=V.length
+i,scl:Integer
+
+BEGIN
+For i FROM 0 To n DO
+if(V[i]$$V[i+1]==0)
+ scl:=Dot_product()
+END_IF
+END_FOR
+END
